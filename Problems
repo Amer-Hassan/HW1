@@ -1,0 +1,43 @@
+#sum
+x=int or float
+y=int or float
+x=input("what is the value of x ")
+y=input("what is the value of y ")
+sum= int(x)+int(y)
+print(sum)
+
+
+#product
+
+x=int or float
+y=int or float
+x=input("what is the value of x ")
+y=input("what is the value of y ")
+
+print(int(x)*int(y))
+
+#kenobi
+s = input("What is your name")
+print("Hello there, " + str(s))
+
+#doublesum
+x=int or float
+y=int or float
+z=int or float
+x=input("What is the value of x ")
+y=input("What is the value of y ")
+z=input("What is the value of z ")
+
+print(int(x)+int(y)+int(z))
+
+#bonus
+z=int or float
+z=input("what is the value of z ")
+print(sum+int(z))
+
+#power(x,y)
+x=int or float
+y=int or float
+x=input("what is the value of x ")
+y=input("what is the value of y ")
+print(int(x)**int(y))
