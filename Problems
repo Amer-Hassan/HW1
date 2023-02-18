@@ -3,9 +3,8 @@ x=int or float
 y=int or float
 x=input("what is the value of x ")
 y=input("what is the value of y ")
-sum= int(x)+int(y)
-print(sum)
-
+sum1= int(x)+int(y)
+print(sum1)
 
 #product
 
@@ -13,7 +12,6 @@ x=int or float
 y=int or float
 x=input("what is the value of x ")
 y=input("what is the value of y ")
-
 print(int(x)*int(y))
 
 #kenobi
@@ -33,7 +31,7 @@ print(int(x)+int(y)+int(z))
 #bonus
 z=int or float
 z=input("what is the value of z ")
-print(sum+int(z))
+print(sum1+int(z))
 
 #power(x,y)
 x=int or float
