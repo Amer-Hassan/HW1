@@ -1,41 +1,19 @@
 #sum
-x=int or float
-y=int or float
-x=input("what is the value of x ")
-y=input("what is the value of y ")
-sum1= int(x)+int(y)
-print(sum1)
+numbers = [4, 3]
+print(sum(numbers))
 
 #product
-
-x=int or float
-y=int or float
-x=input("what is the value of x ")
-y=input("what is the value of y ")
-print(int(x)*int(y))
+print(numbers[0]*numbers[1])
 
 #kenobi
 s = input("What is your name")
 print("Hello there, " + str(s))
 
 #doublesum
-x=int or float
-y=int or float
-z=int or float
-x=input("What is the value of x ")
-y=input("What is the value of y ")
-z=input("What is the value of z ")
-
-print(int(x)+int(y)+int(z))
-
-#bonus
-z=int or float
-z=input("what is the value of z ")
-print(sum1+int(z))
+numbers1 = [12]
+print(sum(numbers+numbers1))
 
 #power(x,y)
-x=int or float
-y=int or float
-x=input("what is the value of x ")
-y=input("what is the value of y ")
+x = numbers[0]
+y = numbers[1]
 print(int(x)**int(y))
